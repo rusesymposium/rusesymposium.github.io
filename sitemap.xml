@@ -3,12 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://rusesymposium.org.uk/info/</loc>
+    <lastmod>2019-02-22T17:44:04+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://rusesymposium.org.uk/keynotes/</loc>
+    <lastmod>2019-02-22T17:43:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://rusesymposium.org.uk/cfp/</loc>
+    <lastmod>2019-02-22T17:43:50+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://rusesymposium.org.uk/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://rusesymposium.org.uk/</loc>
+    <lastmod>2019-02-22T17:44:04+00:00</lastmod>
     <priority>0</priority>
   </url>
   

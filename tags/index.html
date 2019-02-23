@@ -23,9 +23,27 @@
   <script src="/js/script.js"></script>
   <script src="/js/custom.js"></script>
   <script defer src="/js/fontawesome.js"></script>
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
 </head>
 
 <body>
+<div id="fb-root"></div>
+<script async defer src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.2"></script>
 
 <header class="site-header">
   <nav class="site-navi">
@@ -38,7 +56,7 @@
   </nav>
   <div class="subtitle">
     Symposium on Representations, Usage and Social Embedding in Language Change<br>
-    20–21 August 2019 &middot; The University of Manchester
+    20&ndash;21 August 2019 &middot; The University of Manchester
   </div>
 </header>
 <hr class="site-header-bottom">
@@ -57,19 +75,29 @@
 
 
 <div class="site-footer">
-  <div class="copyright"></div>
-  <ul class="site-footer-items">
-    
-  </ul>
-  <div class="powerdby">
+  <div class="myfooterstuff">
+    <div class="left">
+      <h2>Important dates</h2>
+<ul>
+  <li>22 April 2019: Deadline for abstracts</li>
+  <li>late May 2019: Notification of acceptance</li>
+  <li>TBA: Registration opens</li>
+  <li>TBA: Registration closes</li>
+  <li>20&ndash;21 August 2019: Symposium</li>
+</ul>
+
+    </div>
+    <div class="right">
     <p>
-    <a href="mailto:ruse.symposium@gmail.com">ruse.symposium@gmail.com</a></p>
+    <a href="mailto:rusesymposium@gmail.com">rusesymposium@gmail.com</a></p>
     <p>
-    <a href="ruse-poster.pdf">Symposium poster</a> &ndash; to be distributed freely!
+    <a href="ruse-poster.pdf">Symposium poster</a> &ndash; distribute to your colleagues!
     </p>
     <p>
-    RUSE is supported financially by the <a href="https://esrc.ukri.org/">Economic and Social Research Council</a> (grant no. FIXME).
+    RUSE 2019 is supported financially by the <a href="https://esrc.ukri.org/">Economic and Social Research Council</a>.
     </p>
+    </div>
+    <br style="clear:both;"/>
   </div>
 </div>
 

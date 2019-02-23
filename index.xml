@@ -6,9 +6,40 @@
     <description>Recent content on RUSE 2019</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
+    <lastBuildDate>Fri, 22 Feb 2019 17:44:04 +0000</lastBuildDate>
     
 	<atom:link href="http://rusesymposium.org.uk/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Practical information</title>
+      <link>http://rusesymposium.org.uk/info/</link>
+      <pubDate>Fri, 22 Feb 2019 17:44:04 +0000</pubDate>
+      
+      <guid>http://rusesymposium.org.uk/info/</guid>
+      <description>Venue The RUSE symposium takes place on the University of Manchester&amp;rsquo;s Sackville Street Campus in the heart of Manchester city centre, just a 5-minute walk from Piccadilly train station or a 10-minute walk from Oxford Road station.
+ Registration and fees Registration opens in June. Fees are as follows and include both days of the symposium, with a buffet lunch and refreshments throughout the day. We reserve a limited number of places for PhD students with a subsidized fee through a separate application procedure, details of which will be made available once registration opens.</description>
+    </item>
+    
+    <item>
+      <title>Keynotes</title>
+      <link>http://rusesymposium.org.uk/keynotes/</link>
+      <pubDate>Fri, 22 Feb 2019 17:43:55 +0000</pubDate>
+      
+      <guid>http://rusesymposium.org.uk/keynotes/</guid>
+      <description>Ricardo Bermúdez-Otero, University of Manchester Title and abstract TBA
+Richard A. Blythe, University of Edinburgh Title and abstract TBA
+Janet B. Pierrehumbert, University of Oxford Title and abstract TBA</description>
+    </item>
+    
+    <item>
+      <title>Call for Papers</title>
+      <link>http://rusesymposium.org.uk/cfp/</link>
+      <pubDate>Fri, 22 Feb 2019 17:43:50 +0000</pubDate>
+      
+      <guid>http://rusesymposium.org.uk/cfp/</guid>
+      <description>Different theories and models attribute linguistic variation and change to different causes. Currently, significant tension exists between approaches that explain variation and change in terms of a parametric approach to the structure of grammar and the language learner&amp;rsquo;s interaction with primary linguistic data, and approaches that instead derive variation and change from usage effects and the social embedding of language. The two-day long symposium is devoted to addressing this tension in an effort to arrive at a better understanding of the status quo of research on language variation and change, and to outline the most fruitful ways forward towards formal models that make quantitative, empirically testable predictions.</description>
+    </item>
     
   </channel>
 </rss>

@@ -1,5 +1,5 @@
 html {
-  font-size: 1em;
+  font-size: 14pt;
 }
 a.submitnow {
   display: block;
@@ -23,13 +23,19 @@ a.submitnow:hover, a.submitnow:active {
 div.questions {
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: bold;
+  line-height: 1.5;
   text-align: justify;
+}
+a#twitter {
+  display: block;
+  margin-bottom: 1em;
+  clear: both;
 }
 div.questions-index {
   font-size: 150%;
 }
 div.questions-cfp {
-  font-size: 100%;
+  font-size: 110%;
 }
 div.questions span.q:nth-child(1) { color: #d40000ff; }
 div.questions span.q:nth-child(2) { color: #00b0b0ff; }
@@ -41,6 +47,10 @@ div.questions span.q:nth-child(7) { color: #0035a7ff; }
 div.questions span.q:nth-child(8) { color: #bb3b00ff; }
 div.questions span.q:nth-child(9) { color: #8ebc00ff; }
 div.questions span.q:nth-child(10) { color: #c5003fff; }
+/*
+div.questions:hover span.q {color: #ccc; }
+div.questions span.q:hover {color: #000; }
+*/
 body {
   /*
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Noto Sans Japanese", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
@@ -48,7 +58,7 @@ body {
   font-family: 'Crimson Text', serif;
   color: #444444;
   overflow-y: scroll;
-  line-height: 1.2;
+  line-height: 1.5;
 }
 a {
   color: #2060d0;
@@ -104,6 +114,7 @@ blockquote blockquote blockquote blockquote {
 div.subtitle {
   margin-top: 1em;
   margin-bottom: 1em;
+  font-size: 130%;
 }
 .site-navi {
   display: -webkit-flex;
@@ -126,7 +137,7 @@ div.subtitle {
 .site-title {
   -webkit-flex-grow: 1;
   flex-grow: 1;
-  font-size: 2rem;
+  font-size: 250%;
   margin: 0;
   margin-top: 10px;
   padding: 0;
@@ -143,7 +154,7 @@ div.subtitle {
   justify-content: flex-end;
   flex-wrap: wrap;
   align-items: flex-end;
-  font-size: 1.2em;
+  font-size: 130%;
   list-style-type: none;
   margin: 0;
   margin-top: 10px;
@@ -297,7 +308,8 @@ h2 {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  margin-bottom: 40px;
+  margin-bottom: 0;
+  margin-top: 3em;
   display: -webkit-flex;
   display: flex;
   -webkit-align-items: flex-end;
@@ -306,7 +318,7 @@ h2 {
   flex-wrap: wrap;
 }
 .article-share li {
-  margin-right: 4px;
+  margin-right: 0.5em;
   vertical-align: bottom;
   padding: 0;
 }
@@ -450,9 +462,9 @@ h2 {
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 70px;
-  margin-bottom: 20px;
-  font-size: 100%;
+  margin-top: 1em;
+  margin-bottom: 3em;
+  font-size: 110%;
   font-weight: bold;
   display: -webkit-flex;
   display: flex;
@@ -492,6 +504,40 @@ h2 {
   flex-grow: 1;
   margin-left: 10px;
   text-align: right;
+}
+div.myfooterstuff {
+  width: 100%;
+  border-top: 1px solid #ccc;
+  padding-top: 1em;
+  margin-top: 0em;
+  box-sizing: border-box;
+}
+div.myfooterstuff div {
+  float: right;
+  box-sizing: border-box;
+}
+div.myfooterstuff div.left {
+  border-left: 1px solid #ccc;
+  width: 40%;
+  padding-left: 1em;
+}
+div.myfooterstuff div.right {
+  padding-right: 1em;
+  width: 60%;
+}
+div.myfooterstuff div h2 {
+  margin-top: 0;
+}
+div.myfooterstuff div ul {
+  margin: 0;
+  padding: 0;
+}
+div.myfooterstuff div ul li {
+  list-style-type: none;
+}
+div.myfooterstuff div p:first-child {
+  margin-top: 0;
+  padding-top: 0;
 }
 
 /* Terms page */
