@@ -1,6 +1,9 @@
 html {
   font-size: 14pt;
 }
+li.over {
+  text-decoration: line-through;
+}
 a.submitnow {
   display: block;
   margin-left: auto;
