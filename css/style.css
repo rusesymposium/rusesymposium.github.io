@@ -203,6 +203,12 @@ div.subtitle {
   line-height: 1.5;
   font-size: 130%;
 }
+img.sponsorlogo {
+  float: left;
+  vertical-align: top;
+  height: 100px;
+  margin-right: 1em;
+}
 .article img {
   max-width: 100%;
   box-sizing: border-box;
@@ -246,6 +252,31 @@ h2 {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 120%;
   margin-top: 2em;
+}
+h3 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 100%;
+  font-weight: bold;
+  margin-bottom: 0em;
+  margin-top: 1em;
+  padding-bottom: 0em;
+}
+h3+ul {
+  margin-top: 0.2em;
+  padding-top: 0em;
+  list-style-type: none;
+}
+h3+ul li {
+  margin-top: 0.5em;
+  border-left: 0.2em solid #ccc;
+  padding-left: 0.5em;
+}
+
+div#programme ul:nth-child(2) li {
+  border-left: 2em solid red;
+}
+
+h3+ul li br {
 }
 .article-subtitle {
   margin: 0;
